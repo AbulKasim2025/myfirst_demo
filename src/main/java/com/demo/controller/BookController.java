@@ -31,6 +31,7 @@ public class BookController {
 	@PostMapping("/addbooks")
 	public BookEntity addbooks(@RequestBody BookEntity books){
 	System.out.println(books +"check");
+	System.out.println(books +"checking*******");
 	return bookService.addbooks(books);
 
 	}
